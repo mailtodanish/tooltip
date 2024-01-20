@@ -11,6 +11,7 @@ A light weight Tool tip using CSS only
 ## html
 
 ```
+ <link rel="stylesheet" href="tooltip.css">
  <div class="tooltip" data-tool-tip="I am testing">TEST</div>
 
  .tooltip{
