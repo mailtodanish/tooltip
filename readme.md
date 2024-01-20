@@ -5,7 +5,7 @@ tooltip was created because I wanted to practice and writing lightweight CSS lib
 Written by [Mohammad Ahshan Danish](https://github.com/mailtodanish).
 
 _**demo**_
-![tooltop](demo.gif)
+![tooltop](demo1.gif)
 
 ## Variables
 
