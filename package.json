@@ -1,0 +1,19 @@
+{
+  "name": "simple-tooltip",
+  "version": "1.0.0",
+  "description": "tooltip using css only",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sudo minify tooltip.css"
+  },
+  "keywords": [
+    "tooltip"
+  ],
+  "author": "mohd ahshan danish",
+  "license": "MIT",
+  "dependencies": {
+    "minifier": "^0.8.1",
+    "stylelint": "^16.2.0"
+  }
+}

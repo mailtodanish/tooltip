@@ -1,0 +1,54 @@
+/* -------------------------------------------------------------------
+  Light  Weight Tooltip using css-only
+
+  @author mohammad ahshan danish
+
+  <div class="tooltip" data-tool-tip="I am testing">TEST</div>
+--------------------------------------------------------------------*/
+[data-tool-tip] {
+    --background-color:red;
+    position: relative;
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box; 
+
+    &:hover {
+
+        &:after,
+        &:before {
+            visibility: visible;
+        }
+    }
+
+    &:before {
+        position: absolute;
+        content: "";
+        border: 10px solid transparent;
+        border-bottom: 10px solid var(--background-color);
+        bottom: -100%;
+        margin-bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        visibility: hidden;
+    }
+
+    &:after {
+        position: absolute;
+        height: 22px;
+        padding: 10px;
+        padding-inline: 15px;
+        font-size: 20px;
+        content: attr(data-tool-tip);
+        white-space: nowrap;
+        background-color: var(--background-color);
+        color: white;
+        border-radius: 8px;
+        bottom: -100%;
+        margin-bottom: -30px;
+        left: 50%;
+        transform: translateX(-50%);
+        visibility: hidden;
+    }
+}
+
