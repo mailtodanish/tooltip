@@ -4,6 +4,9 @@ tooltip was created because I wanted to practice and writing lightweight CSS lib
 
 Written by [Mohammad Ahshan Danish](https://github.com/mailtodanish).
 
+_**demo**_
+![tooltop](demo.gif)
+
 ## Variables
 
 ```
@@ -14,7 +17,7 @@ Written by [Mohammad Ahshan Danish](https://github.com/mailtodanish).
 
 ```
  <link rel="stylesheet" href="tooltip.css">
- 
+
  <div class="tooltip" data-tool-tip="I am testing">TEST</div>
 
  .tooltip{
