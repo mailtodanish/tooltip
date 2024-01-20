@@ -1,6 +1,4 @@
-# tooltip in css
-
-A light weight Tool tip using CSS only 
+# A light weight Tool tip using CSS only
 
 tooltip was created because I wanted to practice and writing lightweight CSS libraries for tooltip. So feel free to fork and create pull requests!
 
