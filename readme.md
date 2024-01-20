@@ -14,6 +14,7 @@ Written by [Mohammad Ahshan Danish](https://github.com/mailtodanish).
 
 ```
  <link rel="stylesheet" href="tooltip.css">
+ 
  <div class="tooltip" data-tool-tip="I am testing">TEST</div>
 
  .tooltip{
