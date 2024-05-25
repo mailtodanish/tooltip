@@ -30,3 +30,9 @@ _**demo**_
  ```
  tooltip.min.css
  ```
+
+ ##
+
+ npm install
+
+ npm run build
