@@ -23,6 +23,10 @@ _**demo**_
  .tooltip{
     --background-color:black;
  }
+
+// LEFT
+
+ <div class="tooltip" data-tool-tip-left="I am testing">TEST</div>
  ```
 
  ## minify version
