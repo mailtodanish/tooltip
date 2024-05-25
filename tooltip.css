@@ -24,6 +24,7 @@
   right: 100%;
   transform: translateX(100%);
   visibility: hidden;
+  z-index: 9999;
 }
 [data-tool-tip-left]:before {
   position: absolute;
@@ -40,6 +41,7 @@
   margin-bottom: -30px;
   transform: translateX(-99%);
   visibility: hidden;
+  z-index: 9999;
 }
 
 [data-tool-tip] {
@@ -47,6 +49,7 @@
   position: relative;
   display: inline-block;
   box-sizing: content-box;
+  z-index: 9999;
 }
 [data-tool-tip]:hover:after, [data-tool-tip]:hover:before {
   visibility: visible;
@@ -61,6 +64,7 @@
   left: 50%;
   transform: translateX(-50%);
   visibility: hidden;
+  z-index: 9999;
 }
 [data-tool-tip]:after {
   position: absolute;
@@ -78,4 +82,5 @@
   left: 50%;
   transform: translateX(-50%);
   visibility: hidden;
+  z-index: 9999;
 }/*# sourceMappingURL=tooltip.css.map */
